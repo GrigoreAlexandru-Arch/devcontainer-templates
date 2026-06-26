@@ -3,7 +3,7 @@
   "build": { "dockerfile": "Dockerfile" },
   "features": {
     "ghcr.io/grigorealexandru-arch/devcontainer-features/lazyvim:latest": {
-      "configRepo": "https://github.com/GrigoreAlexandru-Arch/devcontainer-features.git"
+      "configRepo": "https://github.com/GrigoreAlexandru-Arch/lazy-vim-config.git"
     },
     "ghcr.io/grigorealexandru-arch/devcontainer-features/sshd:latest": {
       "authorizedKeys": "${localEnv:SSH_PUBLIC_KEY}",
