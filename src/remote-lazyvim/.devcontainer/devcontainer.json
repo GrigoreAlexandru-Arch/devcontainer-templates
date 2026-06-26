@@ -1,6 +1,6 @@
 {
   "name": "${templateProperties:name}",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "build": { "dockerfile": "Dockerfile", "options": ["--ssh"] },
   "features": {
     "ghcr.io/grigorealexandru-arch/devcontainer-features/lazyvim:latest": {
       "configRepo": "${options:lazyVimConfigRepo}"
